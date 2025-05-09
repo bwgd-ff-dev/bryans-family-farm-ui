@@ -1,9 +1,8 @@
 <mat-tab-group [(selectedIndex)]="selectedIndex" animationDuration="500ms">
-  <mat-tab *ngFor="let img of images">
+  <mat-tab *ngFor="let img of images; let i = index">
     <ng-template mat-tab-label>
-      Slide
+      Option {{ i + 1 }}
     </ng-template>
     <img [src]="img" alt="Random image" style="width: 100%; height: auto;">
   </mat-tab>
 </mat-tab-group>
-

@@ -18,8 +18,6 @@ export class CarouselComponent implements OnInit {
   }
 
   ngOnInit() {
-    setInterval(() => {
-      this.selectedIndex = (this.selectedIndex + 1) % this.images.length;
-    }, 3000); // Change slide every 3 seconds
+
   }
 }
