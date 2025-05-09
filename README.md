@@ -18,7 +18,7 @@ Go to directory in terminal by cd'ing into it, example: Cd/Your-Name/Documents/(
 
 Run `npm i @angular/cli`, `npm i @angular/material`, and `npm install @stripe/stripe-js`.
 
-Finally, run `ng serve` and then open up a browser to [Localhost](https://localhost:4200)
+Finally, run `ng serve` and then open up a browser to [Localhost](http://localhost:4200)
 
 ## Development server
 
