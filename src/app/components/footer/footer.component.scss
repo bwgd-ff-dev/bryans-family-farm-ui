@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.footer-left, .footer-right {
+  flex: 1;
+  min-width: 250px;
+  margin: 8px;
+}
+
+.address p {
+  margin: 0;
+}
+
+.footer-right p {
+  margin: 4px 0;
+}

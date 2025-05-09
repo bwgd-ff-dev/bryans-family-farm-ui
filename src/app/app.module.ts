@@ -14,12 +14,17 @@ import { MatButtonModule } from '@angular/material/button';
 import { LayoutModule } from '@angular/cdk/layout'
 import { MatTabsModule } from '@angular/material/tabs'
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    CarouselComponent
+    CarouselComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +37,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     MatIconModule,
     MatButtonModule,
     MatTabsModule,
+    MatToolbarModule,
     LayoutModule
   ],
   providers: [],
