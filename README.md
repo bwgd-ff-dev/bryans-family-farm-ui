@@ -1,4 +1,4 @@
-# BryansFamilyFarmUi
+# Bryans Family Farm UI
 
 First install [Visual Studio Code](https://code.visualstudio.com/download) for Windows or Mac
 
