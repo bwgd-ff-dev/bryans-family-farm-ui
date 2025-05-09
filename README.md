@@ -1,6 +1,24 @@
 # BryansFamilyFarmUi
 
+First install [Visual Studio Code](https://code.visualstudio.com/download) for Windows or Mac
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+
+Follow instructions 
+
+## Setting Up App Locally ##
+
+Create a new folder in designated spot in File Explorer, such as Documents -> New Folder (Folder Name)
+
+Open Virtual Studio Code -> Add Folder to Workspace -> Navigate to folder in File Explorer and open in Virtual Studio Code.
+
+If trust authors prompt appears, select Yes.
+
+Go to directory in terminal by cd'ing into it, example: Cd/Your-Name/Documents/(Folder Name)
+
+Run `npm i @angular/cli`, `npm i @angular/material`, and `npm install @stripe/stripe-js`.
+
+Finally, run `ng serve` and then open up a browser to [Localhost](https://localhost:4200)
 
 ## Development server
 
